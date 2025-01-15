@@ -14,6 +14,7 @@ header {
     top: 0;
     z-index: 1000;
     transition: background-color 0.3s;
+    text-align: center;
 }
 
 .navbar {
@@ -268,19 +269,19 @@ header {
 }
 
 .dark-theme .contact ul li.location img {
-    content: url('/Gambar/location-dark.png');
+    content: url('/Gambar/Logo/location-dark.png');
 }
 
 .dark-theme .contact ul li.linkedin img {
-    content: url('/Gambar/linkedin-dark.png');
+    content: url('/Gambar/Logo/linkedin-dark.png');
 }
 
 .dark-theme .contact ul li.github img {
-    content: url('/Gambar/github-dark.png');
+    content: url('/Gambar/Logo/github-dark.png');
 }
 
 .dark-theme .contact ul li.whatsapp img {
-    content: url('/Gambar/whatsapp-dark.png');
+    content: url('/Gambar/Logo/whatsapp-dark.png');
 }
 
 footer {
