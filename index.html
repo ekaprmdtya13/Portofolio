@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Eka Pramuditya</title>
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style\style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -17,10 +17,12 @@
                 <li><a href="#skills">Keahlian</a></li>
                 <li><a href="#projects">Proyek</a></li>
                 <li><a href="#contact">Kontak</a></li>
+                <li>            
+                    <div class="navbar-buttons">
+                        <button id="theme-toggle" class="btn">🌙</button>
+                    </div>
+                </li>
             </ul>
-            <div class="navbar-buttons">
-                <button id="theme-toggle" class="btn">Tema Gelap</button>
-            </div>
         </nav>
     </header>
 
@@ -40,7 +42,7 @@
                 <p>Saya adalah seorang Data Analyst yang berpengalaman menggunakan Python, SQL, Power BI, dan alat analisis lainnya untuk mengubah data kompleks menjadi wawasan yang dapat ditindaklanjuti. Dengan latar belakang akademis yang kuat di bidang informatika, saya memiliki keahlian dalam analisis data, visualisasi data, dan pembelajaran mesin.</p>
             </div>
             <div class="about-photo">
-                <img src="/Gambar/eka.jpg" alt="Foto Eka Pramuditya">
+                <img src="/Gambar/eka.png" alt="Foto Eka Pramuditya">
             </div>
         </div>
     </section>
@@ -100,7 +102,7 @@
         const themeToggle = document.getElementById('theme-toggle');
         themeToggle.addEventListener('click', () => {
             document.body.classList.toggle('dark-theme');
-            themeToggle.textContent = document.body.classList.contains('dark-theme') ? 'Tema Terang' : 'Tema Gelap';
+            themeToggle.textContent = document.body.classList.contains('dark-theme') ? '☀️' : '🌙';
         });
     </script>
 </body>

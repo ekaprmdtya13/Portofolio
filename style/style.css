@@ -29,6 +29,8 @@ header {
 }
 
 .nav-links a {
+    position: relative;
+    top: 2px;
     color: white;
     text-decoration: none;
     font-weight: 500;
@@ -36,7 +38,7 @@ header {
 }
 
 .nav-links a:hover {
-    color: #ffcc00;
+    color: #ff7300;
 }
 
 .navbar-buttons {
@@ -45,9 +47,8 @@ header {
 }
 
 .navbar-buttons .btn {
-    background-color: white;
-    color: #0044cc;
-    padding: 0.5rem 1rem;
+    background-color: #0044cc;
+    padding: 0.1rem 0.5rem;
     border-radius: 5px;
     text-decoration: none;
     border: none;
@@ -56,7 +57,7 @@ header {
 }
 
 .navbar-buttons .btn:hover {
-    background-color: #ffcc00;
+    background-color: #ff7300;
     color: #0044cc;
 }
 
@@ -70,13 +71,23 @@ header {
 }
 
 .dark-theme .navbar-buttons .btn {
-    background-color: #333333;
+    background-color: #1e1e1e;
     color: white;
 }
 
 .dark-theme .navbar-buttons .btn:hover {
     background-color: #444444;
-    color: #ffcc00;
+}
+
+.dark-theme .project-item {
+    background: #444444;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: left;
 }
 
 .home {
@@ -105,7 +116,6 @@ header {
 }
 
 .about {
-    background-color: #f9f9f9;
     padding: 4rem 2rem;
     text-align: center;
 }
@@ -131,16 +141,13 @@ header {
 }
 
 .about-photo img {
-    width: 100px;
-    height: 180px;
-    border-radius: 10%;
+    width: 300px;
+    height: 400px;
     margin-bottom: 1rem;
-    background-origin: #f4f4f4;
 }
 
 .skills {
     padding: 4rem 2rem;
-    background-color: #f4f4f4;
     text-align: center;
 }
 
@@ -161,7 +168,6 @@ header {
 }
 
 .projects {
-    background-color: #f9f9f9;
     padding: 4rem 2rem;
     text-align: center;
 }
