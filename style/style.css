@@ -109,28 +109,6 @@ header {
     background-color: #1e1e1e;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .navbar .menu-toggle {
-        display: block;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .nav-links a {
-        text-align: center;
-        padding: 1rem;
-    }
-}
-
 .dark-theme .home{
     background: linear-gradient(to bottom, #1e1e1e, #374151);
 }
@@ -344,6 +322,25 @@ footer {
         padding: 0.5rem;
     }
 
+    .navbar .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        text-align: center;
+        padding: 1rem;
+    }
+
     .about-content {
         flex-direction: column;
         gap: 1rem;
@@ -358,7 +355,7 @@ footer {
     }
 
     .project-item {
-        width: 100%;
-        max-width: 100%;
+        width: 90%;
+        max-width: 90%;
     }
 }
